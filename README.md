@@ -1,42 +1,40 @@
-# Forge "Hello, World!"
+# 🌤️ Jira Weather Gadget – 5-Day Forecast
 
-This project contains a Forge app written in Javascript that displays "Hello, World!" in a Jira dashboard gadget. 
+A Forge-powered Jira gadget that displays a dynamic 5-day weather forecast for any selected city — helping teams plan ahead, stay informed, and improve daily coordination, all without leaving Jira.
 
-See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge,
-including the [documentation of Forge dashboard gadgets](https://developer.atlassian.com/platform/forge/manifest-reference/#jira-dashboard-gadget). 
+---
 
-## Requirements
+## 📸 Preview
 
-See [Set up Forge](https://developer.atlassian.com/platform/forge/set-up-forge/) for instructions to get set up.
+![Jira weather app](https://github.com/user-attachments/assets/15104f08-f73f-4e5d-a9b6-c9debfd1247c)
 
-## Quick start
-- Install dependencies:
-```
-npm install
-```
 
-- Modify your app by editing the `src/index.jsx` file.
+---
 
-- Build and deploy your app by running:
-```
-forge deploy
-```
+## 🚀 Features
 
-- Install your app in an Atlassian site by running:
-```
-forge install
-```
+- 🌍 City-based weather selection
+- 🗓️ 5-day weather forecast with daily breakdown
+- 🌡️ Displays temperature, condition, and weather icons
+- 🔄 Refresh button to fetch latest weather
+- 📦 Built with Atlassian Forge (UI Kit)
+- ⚡ Light, fast, and integrated directly into Jira
 
-- Develop your app by running `forge tunnel` to proxy invocations locally:
-```
-forge tunnel
-```
+---
 
-### Notes
-- Use the `forge deploy` command when you want to persist code changes.
-- Use the `forge install` command when you want to install the app on a new site.
-- Once the app is installed on a site, the site picks up the new app changes you deploy without needing to rerun the install command.
+## 🛠️ Tech Stack
 
-## Support
+- **Atlassian Forge** – App framework  
+- **Forge UI Kit** – Frontend components  
+- **OpenWeatherMap API** – Real-time weather data  
+- **Forge Storage API** – (Coming soon) for default city persistence
 
-See [Get help](https://developer.atlassian.com/platform/forge/get-help/) for how to get help and provide feedback.
+---
+
+## 📦 Setup Instructions
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-username/jira-weather-gadget.git
+cd jira-weather-gadget
