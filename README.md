@@ -7,6 +7,8 @@ A Forge-powered Jira gadget that displays a dynamic 5-day weather forecast for a
 ## 📸 Preview
 
 ![Jira weather app](https://github.com/user-attachments/assets/15104f08-f73f-4e5d-a9b6-c9debfd1247c)
+![image](https://github.com/user-attachments/assets/74c89071-d9a5-4123-9f24-1d6718d23ab9)
+
 
 
 ---
