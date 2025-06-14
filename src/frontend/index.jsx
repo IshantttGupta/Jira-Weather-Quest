@@ -1,3 +1,5 @@
+//forntend part
+
 import React, {useEffect, useState} from "react";
 import ForgeReconciler, { Text, useProductContext, Textfield, Form, Button, FormSection, FormFooter, Label, RequiredAsterisk, useForm, RadioGroup, ErrorMessage, Box, Inline, xcss, Heading, Strong, Image } from "@forge/react";
 import { invoke, view } from "@forge/bridge";
